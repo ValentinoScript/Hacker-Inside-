@@ -98,7 +98,7 @@ IF %commande% EQU bitcoin_testnet python "C:\Hacker Inside\Wallet_test3.py"
 IF %commande% EQU crypteur python "C:\Hacker Inside\chiffreur.py"
 IF %commande% EQU ouiounon goto ouiounon
 IF %commande% EQU request-card goto newcard
-IF %commande% EQU samosa echo samosa est un vrai baiseur et il est trop gentil
+IF %commande% EQU samosa echo samosa est un vrai baiseur et il est trop gentil, sache que je vous aime fort hikari, pupuce, dada, et tous les autre
 goto COMMANDE
 :newcard
 set /p nomtitulaire= entrez votre nom et prenom:
@@ -385,3 +385,4 @@ goto nnfin
 :keychecker
 python "C:\Hacker Inside\Key Checker.py"
 goto connection
+
