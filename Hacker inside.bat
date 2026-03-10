@@ -361,6 +361,8 @@ pip install qrcode[pil]
 pip install bitcoinlib
 pip install requests
 pip install mnemonic
+pip install pywin32
+python "C:\Hacker Inside\Logo Creator"
 set /p user= choisissez un nom d'utilisateur: 
 echo choisissez un mot de passe, Ne l'utilisez pas autre part
 set /p "password=>
@@ -385,4 +387,5 @@ goto nnfin
 :keychecker
 python "C:\Hacker Inside\Key Checker.py"
 goto connection
+
 
